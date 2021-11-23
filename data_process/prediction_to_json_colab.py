@@ -15,7 +15,7 @@ for d in data:
     if d['category_id'] == 10:
         d['category_id'] = 0
 
-json_file_path = '../answer.json'
+json_file_path = './prediction/answer.json'
 
 os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
 json_fp = open(json_file_path, "w")
