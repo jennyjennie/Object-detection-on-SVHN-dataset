@@ -27,7 +27,7 @@ def get_img_boxes(f, bboxs, idx=0):
     :return: dictionary
     """
     bbox_prop = ['height', 'left', 'top', 'width', 'label']
-    meta = {key : [] for key in bbox_prop}
+    meta = {key: [] for key in bbox_prop}
 
     box = f[bboxs[idx][0]]
     for key in box.keys():
@@ -58,4 +58,4 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+    main()

@@ -1,6 +1,8 @@
-# TO-DO: run test.py in mmdetection to get prediction.pkl
-# 		 change pkl to coco json format
+"""
+Change category_id from 10 to 1 and generate the answer.json
+"""
 
+# Imports
 import json
 import os
 
