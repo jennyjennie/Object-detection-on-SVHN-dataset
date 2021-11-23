@@ -13,7 +13,7 @@ with open(ans_json_file, 'r', encoding='utf-8') as json_file:
 
 for d in data:
     if d['category_id'] == 10:
-        d['category_id'] == 0
+        d['category_id'] = 0
 
 json_file_path = '../answer.json'
 
